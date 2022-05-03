@@ -1,0 +1,80 @@
+{
+  "recipes": [
+    {
+      "id": 1,
+      "title": "Fylte djevelegg",
+      "description": "Smakfulle fylte djeveleegg med ost",
+      "image": "https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/spring-recipes-pimiento-deviled-eggs-1580170133.jpg?crop=0.838xw:0.840xh;0.121xw,0.0295xh&resize=980:*",
+      "time": "20-40 minutter",
+      "difficulty": "Enkel",
+      "ingredients": [
+        "sukker",
+        "mel",
+        "melk",
+        "smør",
+        "bakepulver",
+        "krem eller fløte"
+      ],
+      "steps": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor."
+    },
+    {
+      "id": 2,
+      "title": "Grønn salat med vinaigrette",
+      "description": "Frisk og crispy salat",
+      "image": "https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/spring-salad-recipe-with-apricot-vinaigrette-1610740915.jpg?crop=0.721xw:0.751xh;0.155xw,0&resize=980:*",
+      "time": "20-40 minutter",
+      "difficulty": "Enkel",
+      "ingredients": ["400 gram lam", "gulerøtter", "poteter"],
+      "steps": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor."
+    },
+    {
+      "id": 3,
+      "title": "Skalldyrtallerken",
+      "description": "Skalldyrtallerken med sommerens skalldyr",
+      "image": "https://www.cntower.ca/sites/default/files/styles/16_9_scale_and_crop_medium/public/images/Recipe_Sauces%20for%20Seafood%20Platter.jpg?h=5ce0254a&itok=85QM_LnN",
+      "time": "20-40 minutter",
+      "difficulty": "Enkel",
+      "ingredients": ["kakao", "sjokoladeegg", "vaniljesukker", "bakepulver"],
+      "steps": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor."
+    },
+    {
+      "id": 4,
+      "title": "Sommerruller",
+      "description": "Smakfulle sommerruller",
+      "image": "https://www.elle.no/content/uploads/sites/41/2020/08/sommerruller.jpg",
+      "time": "Over 60 minutter",
+      "difficulty": "Enkel",
+      "ingredients": [
+        "kjøttdeig. Kylling eller svin",
+        "gulerøtter",
+        "løk",
+        "sopp",
+        "glassnudler",
+        "salt",
+        "pepper",
+        "vårrullpapir"
+      ],
+      "steps": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor."
+    },
+    {
+      "id": 5,
+      "title": "Nuddelsalat",
+      "description": "Frisk og enkel Vietnamesisk nuddelsalat",
+      "image": "https://asianinspirations.com.au/wp-content/uploads/2019/01/R00946_Viet_Noodles_with_Lemongrass_Chicken-2.jpg",
+      "time": "45 minutter",
+      "difficulty": "Enkel",
+      "ingredients": ["pizzabunn", "sopp", "peperoni", "rødløk", "pesto"],
+      "steps": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor."
+    },
+    {
+      "id": 6,
+      "title": "Frisk smoothie-bowl",
+      "description": "Mettende smoothie-bowl for varme sommerkvelder",
+      "image": "https://www.wilfa.com/globalassets/oppskrifter/smoothie/smoothiebowl-web.jpg",
+      "time": "45 minutter",
+      "difficulty": "Enkel",
+      "ingredients": ["pizzabunn", "sopp", "peperoni", "rødløk", "pesto"],
+      "steps": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor."
+    }
+  ]
+}
