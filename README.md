@@ -1,5 +1,5 @@
 # Matoppskriftsapp
-En app med matoppskrifter laget i React Native.
+En app med matoppskrifter laget i React Native - få inspirasjon til matoppskrifter eller del din egen oppskrift.
 Under utvikling.
 
 ![Skjermbilde fra 2022-05-04 13-04-05](https://user-images.githubusercontent.com/42605624/166669944-c3cf62b2-fcef-4ee7-bcfd-85f66e93b33d.png)
