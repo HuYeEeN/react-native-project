@@ -78,7 +78,8 @@ const Results = ({ navigation, matchingTerms }) => {
 const style = StyleSheet.create({
     container: {
         position: "relative",
-        marginHorizontal: 8
+        marginHorizontal: 8,
+        paddingBottom: 4
     },
     input: {
         flexDirection: "row",
