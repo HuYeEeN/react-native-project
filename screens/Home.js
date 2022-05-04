@@ -6,8 +6,6 @@ import { ScrollView } from 'react-native-gesture-handler'
 import MonthlyTip from "../components/MonthlyTip"
 import { recipeData } from '../context/RecipeDataContext'
 
-// [] {} ''
-
 export default function Home({ navigation }) {
   const recipes = recipeData()
 

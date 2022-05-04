@@ -3,8 +3,6 @@ import React from 'react'
 import MaterialCommunityIcons from "react-native-vector-icons/MaterialCommunityIcons"
 import { useDispatch } from 'react-redux'
 
-// [] {} '' $
-
 export default function FavoriteButton({ recipe, isFavorite }) {
   const dispatch = useDispatch()
   const dispatchAdd = (item, buttonValue) =>

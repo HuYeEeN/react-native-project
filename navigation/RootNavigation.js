@@ -12,8 +12,6 @@ import Recipe from "../components/Recipe"
 import Login from "../screens/Login"
 import { RecipeAPIProvider } from "../context/RecipeDataContext";
 
-//[] {}
-
 const store = configureStore()
 const Stack = createStackNavigator()
 

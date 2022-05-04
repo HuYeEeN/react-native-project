@@ -4,8 +4,6 @@ import { TouchableOpacity } from 'react-native-gesture-handler'
 import GlobalStyle from "../shared/Style"
 import { useNavigation } from '@react-navigation/native'
 
-//[] {}
-
 export default function RegisterRecipeButton({ screenName }) {
     const navigation = useNavigation()
 

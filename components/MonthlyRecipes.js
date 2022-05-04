@@ -4,7 +4,6 @@ import { ScrollView } from 'react-native'
 import FavoriteButton from './FavoriteButton'
 import { TouchableOpacity } from 'react-native-gesture-handler'
 import { useSelector } from "react-redux"
-// [] {} '' $
 
 const isFavorite = (recipeId) => (useSelector((state) =>
   state.favoriteReducer.selectedItems.items

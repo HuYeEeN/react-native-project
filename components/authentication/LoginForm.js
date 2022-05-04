@@ -6,8 +6,6 @@ import GlobalStyle from "../../shared/Style"
 import { ErrorMessage, handleLogin } from './HandleLogin'
 import { TouchableOpacity } from 'react-native-gesture-handler'
 
-//[] {}
-
 export default function LoginForm() {
   const [email, setEmail] = useState("")
   const [emailError, setEmailError] = useState("")

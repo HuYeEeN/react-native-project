@@ -7,8 +7,6 @@ import Ingredients from './Ingredients'
 import { SafeAreaView } from 'react-native-safe-area-context'
 import GlobalStyles from "../../shared/Style"
 
-//[] {}
-
 export default function RegisterRecipe() {
 
     const { control, handleSubmit } = useForm()

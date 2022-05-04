@@ -1,8 +1,6 @@
 import { View, Image, StyleSheet, Text } from 'react-native'
 import React from 'react'
 
-// [] {} '' $
-
 const image =
     "https://bramat.no/images/images/kosthold/smoothiebowl.jpg"
 

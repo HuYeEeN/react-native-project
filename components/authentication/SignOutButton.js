@@ -4,8 +4,6 @@ import { TouchableOpacity } from 'react-native-gesture-handler'
 import GlobalStyle from "../../shared/Style"
 import { logOut } from "../../firebase";
 
-// [] {} ''
-
 export default function SignOutButton() {
     return (
         <TouchableOpacity

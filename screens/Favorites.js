@@ -5,8 +5,6 @@ import GlobalStyles from "../shared/Style"
 import FavoriteItems from '../components/FavoriteItems'
 import { SafeAreaView } from 'react-native-safe-area-context'
 
-// [] {} '' $
-
 export default function Favorites({ navigation }) {
   return (
     <>

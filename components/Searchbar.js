@@ -3,8 +3,6 @@ import React, { useState } from 'react'
 import { ScrollView, TextInput, TouchableOpacity } from 'react-native-gesture-handler'
 import MaterialCommunityIcons from "react-native-vector-icons/MaterialCommunityIcons"
 
-// [] {} ''
-
 export default function Searchbar({ navigation, recipes }) {
     const [searchTerm, setSearchTerm] = useState("")
 

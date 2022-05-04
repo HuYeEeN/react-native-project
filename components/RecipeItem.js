@@ -5,8 +5,6 @@ import React from 'react'
 import GlobalStyles from "../shared/Style"
 import FavoriteButton from './FavoriteButton'
 
-// [] {} '' $
-
 export default function RecipeItem({ navigation, recipe }) {
     const { image, title, description, ingredients, time, steps, difficulty } = recipe
 

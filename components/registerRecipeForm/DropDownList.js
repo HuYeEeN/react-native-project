@@ -2,8 +2,6 @@ import { View, Text, TouchableOpacity, FlatList, StyleSheet } from 'react-native
 import MaterialCommunityIcons from "react-native-vector-icons/MaterialCommunityIcons"
 import React, { useEffect, useState } from 'react'
 
-//[] {}
-
 const data = [
     { value: "20-40 min", id: 1 },
     { value: "40-60 min", id: 2 },

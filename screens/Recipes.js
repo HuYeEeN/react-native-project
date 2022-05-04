@@ -6,8 +6,6 @@ import GlobalStyles from "../shared/Style"
 import { SafeAreaView } from 'react-native-safe-area-context'
 import { recipeData } from '../context/RecipeDataContext'
 
-// [] {} '' $
-
 export default function Recipes({ navigation }) {
   const recipes = recipeData()
 

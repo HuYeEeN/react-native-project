@@ -1,8 +1,6 @@
 import { combineReducers } from "redux"
 import favoriteReducer from "./favoriteReducer"
 
-// [] {} '' $
-
 let reducers = combineReducers({
     favoriteReducer: favoriteReducer
 })

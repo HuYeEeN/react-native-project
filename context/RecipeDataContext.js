@@ -1,6 +1,9 @@
 import React, { useContext, useEffect, useState } from "react";
 
-// [] {} ''
+/**
+ * Using Context API to pass data through the component tree 
+ * without having to pass props down manually at every level.
+ */
 const RecipeDataContext = React.createContext()
 
 export function recipeData() {

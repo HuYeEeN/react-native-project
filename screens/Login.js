@@ -5,8 +5,6 @@ import LoginForm from '../components/authentication/LoginForm';
 import UserAccount from "../components/UserAccount"
 import RegisterRecipe from '../components/registerRecipeForm/RegisterRecipe'
 
-//[] {}
-
 export default function Login() {
   const auth = useAuth
   const currentUser = auth()

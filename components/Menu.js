@@ -4,8 +4,6 @@ import React from 'react'
 import * as Navigation from "../navigation/Navigation"
 import GlobalStyles from "../shared/Style"
 
-// [] {} ''
-
 export default function Menu() {
   return (
     <View

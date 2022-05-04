@@ -2,8 +2,6 @@ import { View, Text, TouchableOpacity, StyleSheet } from 'react-native'
 import React, { useState } from 'react'
 import { TextInput } from 'react-native-gesture-handler'
 
-//[] {}
-
 export default function Ingredients() {
     const [inputFields, setInputFields] = useState([
         { itemId: "" }
@@ -13,7 +11,7 @@ export default function Ingredients() {
         <View>
             <Text style={styles.title}>Legg til ingredienser</Text>
             {inputFields.map((item) => (
-                <CustomerInput
+                <UserInput
                     key={item.itemId}
                     item={item}
                     inputFields={inputFields}
@@ -31,15 +29,7 @@ export default function Ingredients() {
     )
 }
 
-const addItem = (inputFields, setInputFields) => {
-    setInputFields([...inputFields, { itemId: Math.random() }])
-}
-
-const removeItem = (item, inputFields, setInputFields) => {
-    setInputFields(inputFields.filter(input => input != item))
-}
-
-const CustomerInput = ({ item, inputFields, setInputFields }) => (
+const UserInput = ({ item, inputFields, setInputFields }) => (
     <View style={styles.inputField}>
         <TextInput
             style={styles.textInput}
@@ -51,6 +41,14 @@ const CustomerInput = ({ item, inputFields, setInputFields }) => (
         />
     </View>
 )
+
+const addItem = (inputFields, setInputFields) => {
+    setInputFields([...inputFields, { itemId: Math.random() }])
+}
+
+const removeItem = (item, inputFields, setInputFields) => {
+    setInputFields(inputFields.filter(input => input != item))
+}
 
 const AddButton = ({ inputFields, setInputFields }) => (
     <TouchableOpacity

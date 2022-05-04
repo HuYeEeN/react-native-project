@@ -1,6 +1,3 @@
-
-// [] {} '' $
-
 let defaultState = {
     selectedItems: { items: [] }
 }

@@ -4,8 +4,6 @@ import SignOutButton from './authentication/SignOutButton'
 import GlobalStyle from "../shared/Style"
 import RegisterRecipeButton from './RegisterRecipeButton'
 
-//[] {}
-
 export default function UserAccount() {
   return (
     <View style={{ ...GlobalStyle.centerOnPage, ...GlobalStyle.background }}>
