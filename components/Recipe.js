@@ -12,8 +12,7 @@ export default function Recipe(props) {
     return (
         <ScrollView
             contentContainerStyle={{
-                paddingBottom: 10,
-                backgroundColor: "#f6efef"
+                paddingBottom: 10
             }} >
             <RecipeImage image={image} />
 
