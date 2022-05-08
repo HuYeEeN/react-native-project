@@ -37,7 +37,7 @@ const MenuButton = ({ icon, title, screenName }) => (
     style={{ alignItems: "center" }}
     onPress={() => Navigation.navigation(screenName, {})}
   >
-    <MaterialCommunityIcons name={icon} size={25} color={GlobalStyles.themeColor.color} />
+    <MaterialCommunityIcons name={icon} size={25} style={GlobalStyles.themeColor} />
     <Text style={styles.text} >{title}</Text>
   </TouchableOpacity>
 )
