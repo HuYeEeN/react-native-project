@@ -7,7 +7,7 @@ const image =
 export default function MonthlyTip() {
     return (
         <View style={styles.container}>
-            <Image source={{ uri: image }} style={styles.image} />
+            <Image source={{ uri: image }} style={styles.image}></Image>
 
             <View style={styles.textbox}>
                 <Text style={styles.text}>Tips</Text>
