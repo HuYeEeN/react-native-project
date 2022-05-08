@@ -4,8 +4,6 @@ import { useEffect, useState } from 'react'
 import {LogBox} from 'react-native';
 LogBox.ignoreLogs(['AsyncStorage has been extracted from react-native core'])
 
-// [] {} ''
-
 const firebaseConfig = {
   apiKey: "AIzaSyCZQrpEA_FQyZ1MhVQUX8rR80WxmikvpQE",
   authDomain: "min-handleliste-ee0d5.firebaseapp.com",
